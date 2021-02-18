@@ -1,0 +1,32 @@
+.product-items{
+    align-items: center;
+    justify-content: center;
+    display:grid;
+    margin:  3% auto auto auto;
+    grid-template-rows: auto;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 695px 695px;
+
+}
+
+.product-item{
+    width: 695px;
+    height: 576px;
+}
+.img-1-product{
+
+
+    background-size: 300px 50px;
+    background-image: url('../img/08707c5b892e340030f7e770c2cce1e6.webp') !important;
+    
+}
+.img-2-product{
+
+}
+.img-3-product{
+
+}
+.img-4-product{
+
+}

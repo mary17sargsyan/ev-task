@@ -1,0 +1,106 @@
+.background-video-tutorial{
+    display: block;
+    position: relative;
+ 
+    height: auto;
+}
+
+.background-color-tutorial{
+    padding-top:5%;
+    height: auto;
+    background-color: rgba(255, 249, 249, 0.9);
+    padding-bottom: 8%;
+}
+
+
+.video-tutorial{
+   
+        align-items: center;
+        justify-content: center;
+        display:grid;
+        margin: 3% auto 20px auto;
+        grid-template-rows: auto;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 350px 350px 359px;
+        gap: 3%;
+
+        z-index: 1;
+}
+
+.video-tutorial-item{
+    transition: margin 0.3s ease-in-out !important;
+    transition-property: margin;
+    transition-duration: 0.5s !important;
+    transition-timing-function: ease-in-out !important;
+    transition-delay: 0s !important;
+    animation: backwards;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0047ce33;
+    border-radius: 10px;
+}
+.video-tutorial-item:hover{
+    margin-top: -15px
+}
+.video-tutorial-item-container{
+    
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.video-img{
+    border-radius: 14px;
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+.circle-video{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute ;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
+    opacity: 0.6;
+}
+
+.circle-video:hover{
+
+    opacity: 0.9;
+}
+.item-title{
+    margin-left: 15px;
+    font-size: 14px;
+
+}
+
+@media  screen and (max-width: 1150px) {
+    .video-tutorial{
+   
+        
+
+        grid-template-columns: 350px 350px;
+  
+}
+
+.background-color-tutorial{
+    padding-bottom:100px;
+}
+}
+
+@media  screen and (max-width: 740px) {
+    .video-tutorial{
+      
+   
+        gap: 2%;
+        grid-template-columns: 350px
+  
+}
+.background-color-tutorial{
+    padding-bottom:240px;
+}
+}

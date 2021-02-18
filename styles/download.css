@@ -1,0 +1,96 @@
+.download-container{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 249, 249, 0.9);
+
+}
+
+
+.cutet {
+    width:100px;
+    height: 100px;
+    background-color: rgb(255, 249, 249);
+    opacity: 0.8;
+
+    position: absolute;
+
+    left: 50%;
+    right: 50%;
+    transform-origin: 50% 50%;
+    bottom: -121px;
+    transform: rotate(45deg)   translate(-50%, -50%);
+    z-index: -1;
+
+}
+.title-download{
+    padding-top: 40px;
+    width: 100%;
+    background-color: rgb(255, 249, 249);
+    opacity: 0.8;
+    z-index: 10;
+    position: relative;
+    height: 150px;
+}
+.content{
+
+  background-color:   rgba(35, 172, 232);
+  opacity: 0.8;
+        justify-content: center;
+        display:grid;
+        margin: auto;
+        grid-template-rows: auto;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 300px 300px ;
+        gap: 2%;
+       
+}
+
+.content-item{
+    padding: 60px 0 70px 0;
+}
+.downloads-img{
+    height: auto;
+    display: block;
+    width: 160px;
+    height: 110px;
+}
+
+
+.download-button{
+    top: 40px;
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    align-items: center;
+    font-size: 16px;
+   position: relative;
+   bottom: 0;
+    color: #545F7E;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+
+    box-shadow: 0px 3px 9px #545F7E;
+    border: 2px solid #F5FAFE;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+.content-item div{
+    width: 130px;
+    margin: auto;
+}
+.download-button:hover{
+    opacity: 1;
+}
+
+@media  screen and (max-width: 640px) {
+
+    .content{
+
+    
+              grid-template-columns: 150px 150px ;
+
+             
+      }
+}

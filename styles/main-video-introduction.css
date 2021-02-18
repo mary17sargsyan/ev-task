@@ -1,0 +1,259 @@
+.main-video-introduction{
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to left, #e8f2f7, #FFF);
+    position: relative;
+}
+
+.video-intro{
+    top: 110px;
+    margin-left: 15%;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.img-monitor{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+}
+.video-main{
+    position: absolute;
+    width: 374px;
+    height: 226px;
+    top: 15px;
+    left: 13px;
+}
+.animation-loop{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(	64,	73,	86, 0.9 );
+    position:absolute;
+
+    bottom: 0px;
+  
+    
+}
+.text-box-title-big{
+    height: 50px;
+    font-size: 49px;
+}
+.main-video-content-for-text{
+    margin-top:140px;
+    width: 300px;
+    height: 250px;
+}
+
+.button-main{
+    font-size: 16px !important;
+
+
+}
+
+.img-main-mini{
+    top: 70px;
+    right: 20%;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+
+.align-item-left{
+    height: 20px !important;
+    text-align: left!important;
+}
+.background-video{
+    position: absolute;
+    right:  0;
+    top: 0;
+
+    width: 50%;
+    height: auto;
+}
+.animation-loop-item{
+    width: 650px;
+    height: 60px;
+
+    margin: auto;
+    position: relative;
+    background: url('../img/Mediamodifier-Design.svg') repeat ;
+
+    -webkit-animation: slide 20s linear infinite;
+    
+}
+
+@-webkit-keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: 700px 0; }
+}
+@media  screen and (max-width: 1300px) {
+   
+    .video-intro{
+        margin-left: 10%;
+        width: 350px;
+        height: 250px;
+     
+    }
+    .img-monitor{
+        position: absolute;
+        width: 350px;
+        height: 250px;
+    }
+    .video-main{
+        top: 13px;
+        width: 328px;
+        height: 187px;
+        left: 11px;
+    }
+    .text-box-title-big{
+        height: 50px;
+        font-size: 44px;
+    }
+    .main-video-content-for-text{
+        margin-top:140px;
+        width: 270px;
+        height: 200px;
+    }
+    
+    .button-main{
+        font-size: 14px !important;
+    }
+    
+    .img-main-mini{
+        top: 80px;
+        right: 10px;
+
+        width: 250px;
+        height: 150px;
+    }
+
+    .background-video{
+
+        width: 450px;
+  
+    }
+}
+
+
+
+  
+ 
+@media  screen and (max-width: 910px) {
+
+.video-intro{
+    display: block;
+    width: 350px;
+}
+.background-video{
+  
+}
+
+    .img-main-mini{
+        top: 50px;
+        right: 10px;
+        width: 150px;
+        height: 100px;
+    }
+    .background-video{
+
+        width: 30%;
+  
+    }
+
+    .button-main{
+        font-size: 12px !important;
+    }
+
+
+
+
+
+
+
+
+
+    .animation-loop-item{
+        width: 350px;
+        height: 60px;
+    
+        margin: auto;
+        position: relative;
+        background: url('../img/Mediamodifier-Design.svg') repeat ;
+    
+        -webkit-animation: slide 20s linear infinite;
+        
+    }
+    
+    @-webkit-keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: 350px 0; }
+    }
+
+
+  
+.video-intro{
+ 
+    width: 200px;
+    height:180px;
+    position: relative;
+}
+.img-monitor{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+}
+
+.video-main{
+    position: absolute;
+    width: 188px;
+    height: 136px;
+    top: 9px;
+    left: 6px;
+}
+
+.img-main-mini{
+    top: 45px;
+    right: 0;
+ 
+}
+.background-video{
+
+    width: 30%;
+
+}
+
+.button-main{
+   
+    font-size: 12px !important;
+}
+
+.text-box-title-big{
+    display: block;
+    width: 145px;
+    height: 21px;
+    font-size: 25px;
+}
+
+.main-video-content-for-text{
+    width: 145px;
+}
+
+
+.align-item-left{
+    font-size: 16px !important;
+    height: 30px;
+
+}
+
+.button-main{
+    width: 120px !important;
+    height: 40px;
+}
+
+.main-video-introduction{
+    width: 100%;
+    height: 450px;
+
+}
+
+}
